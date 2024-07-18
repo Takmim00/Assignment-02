@@ -190,3 +190,40 @@ body{
     border-radius: 50%;
     margin-bottom: 30px;
 }
+/* run an extra style  */
+.run-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    padding: 30px;
+}
+.run-content{
+    width: 50%;
+    color: white;
+}
+.run-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.run-content p{
+    font-size: 0.87rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+}
+.btn-primary-4{
+    width: 175px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.run-img img{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
