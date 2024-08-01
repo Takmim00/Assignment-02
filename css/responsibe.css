@@ -1,9 +1,15 @@
 @media screen and (max-width:576px) {
     .container{
         margin: 1rem auto;
-    }    
+    } 
+    br{
+        display: none;
+    }   
     .nav-option{
         display: none;
+    }
+    .nav-title{
+        padding-left: 0;
     }
     .ham-burger{
         display: block;
@@ -13,7 +19,6 @@
     }
     .banner-container{
         flex-direction: column;
-        padding: auto;
         gap: 1rem;
     }
     .banner-content{
@@ -32,7 +37,7 @@
     }
     .run-container{
         flex-direction: column;
-        padding: 20px;
+        padding: 10px;
         gap: 1rem;
     }
     .run-content{
@@ -45,4 +50,15 @@
         width: 300px;
         height: 200px;
     }    
+    .bmi-content{
+        width: 80%;
+    }
+    .bmi-container{
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+    .bmi-calculator{
+        width: 80%;
+    }
 }
