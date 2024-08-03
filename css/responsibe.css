@@ -61,4 +61,7 @@
     .bmi-calculator{
         width: 80%;
     }
+    .trainer-container{
+        grid-template-columns: 1fr;
+    }
 }

@@ -339,3 +339,89 @@ select {
     font-weight: 600;
     cursor: pointer;
 }
+/* Meet our team style  */
+.team-container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-container h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.team-container p{
+    font-size: 0.87rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+}
+.trainer-container{
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.trainers{
+    position: relative;
+}
+.trainer img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.2)
+}
+.trainer-details{
+    position: absolute;
+    top: 75%;
+    right: 60%;
+}
+/* Footer style  */
+.footer-container{
+    color: white;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.footer-content{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.footer-logo{
+    width: 443px;
+    height: 176px;
+}
+.footer-logo h1{
+    font-size: 4.3rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.footer-logo p{
+    font-size: 0.87rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-link{
+    display: flex;
+}
+.footer-link h2{
+    margin-bottom: 12px;
+    margin-left: 30px;
+}
+.footer-link ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-bottom{
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
