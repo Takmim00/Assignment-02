@@ -4,7 +4,8 @@
     } 
     br{
         display: none;
-    }   
+    }  
+    /* navigation responsive*/ 
     .nav-option{
         display: none;
     }
@@ -17,6 +18,7 @@
     .ham-burger{
         font-size: 24px;
     }
+    /* banner responsive*/
     .banner-container{
         flex-direction: column;
         gap: 1rem;
@@ -32,9 +34,11 @@
         top: 10%;
         left: 55%;
     }
+    /* habit responsive*/
     .habit-box-content{
         grid-template-columns: 1fr;
     }
+    /* run an extra responsive  */
     .run-container{
         flex-direction: column;
         padding: 10px;
@@ -49,7 +53,8 @@
     .run-img img{
         width: 300px;
         height: 200px;
-    }    
+    } 
+    /* Bmi calculator responsive */   
     .bmi-content{
         width: 80%;
     }
@@ -61,9 +66,11 @@
     .bmi-calculator{
         width: 80%;
     }
+    /* Meet our team responsive  */
     .trainer-container{
         grid-template-columns: 1fr;
     }
+    /* Footer responsive  */
     .footer-content{
         flex-direction: column;
         align-items: start;
