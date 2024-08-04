@@ -6,6 +6,9 @@
         display: none;
     }  
     /* navigation responsive*/ 
+    .nav-bar{
+        margin: 0 2rem 2rem 2rem;
+    }
     .nav-option{
         display: none;
     }
