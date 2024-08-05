@@ -397,7 +397,7 @@ select {
 /* Footer style  */
 .footer-container{
     color: white;
-    padding: 20px;
+    padding: 40px;
     background: rgba(255, 255, 255, 0.2);
 }
 .footer-content{
@@ -424,12 +424,12 @@ select {
     display: flex;
 }
 .footer-link h2{
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     margin-left: 30px;
 }
 .footer-link ul li{
     list-style: none;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     color: rgba(255, 255, 255, 0.5);
 }
 .footer-bottom{
