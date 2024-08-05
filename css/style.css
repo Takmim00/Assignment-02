@@ -41,7 +41,7 @@ header{
     gap: 3rem;
     color: white;
     border-radius: 40px;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
 }
 .btn-primary{
@@ -384,6 +384,10 @@ select {
     border-radius: 18px;
     position: relative;
     background: rgba(0, 0, 0, 0.2)
+}
+.trainer-details h3{
+    font-size: 1rem;
+    font-weight: 800;
 }
 .trainer-details{
     position: absolute;
