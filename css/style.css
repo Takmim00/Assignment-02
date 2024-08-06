@@ -405,7 +405,7 @@ select {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .footer-logo{
     width: 443px;
@@ -429,7 +429,7 @@ select {
 }
 .footer-link ul li{
     list-style: none;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     color: rgba(255, 255, 255, 0.5);
 }
 .footer-bottom{
