@@ -72,7 +72,7 @@
     /* Meet our team responsive  */
     .trainer-container{
         grid-template-columns: 1fr;
-    }
+    } 
     /* Footer responsive  */
     .footer-content{
         flex-direction: column;
