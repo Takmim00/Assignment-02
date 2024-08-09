@@ -137,7 +137,7 @@ header{
     flex-direction: column;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(10px);
     position: absolute;
     top: 70%;
     right: 70%;
@@ -166,7 +166,7 @@ header{
     align-items: start;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(24px);
+    backdrop-filter: blur(20px);
     position: absolute;
     top: 20%;
     left: 65%;
@@ -187,6 +187,9 @@ header{
     font-size: 0.87rem;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 50px;
+    width: 50%;
+    text-align: center;
+
 }
 .habit-box-content{
     width: 100%;
@@ -205,6 +208,12 @@ header{
 .habit-box img{
     border-radius: 50%;
     margin-bottom: 30px;
+}
+.habit-box p{
+    font-size: 0.87rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+    width: 100%;
 }
 /* run an extra style  */
 .run-container{
@@ -243,6 +252,8 @@ header{
     width: 450px;
     height: 350px;
     border-radius: 20px;
+    object-fit: none;
+    object-position:66% 33%;
 }
 /* Bmi calculator style  */
 .bmi-content{

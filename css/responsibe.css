@@ -41,6 +41,12 @@
     .habit-box-content{
         grid-template-columns: 1fr;
     }
+    .habit-container h1{
+        text-align: center;
+    }
+    .habit-container p{
+        width: 100%;
+    }
     /* run an extra responsive  */
     .run-container{
         flex-direction: column;
@@ -56,6 +62,7 @@
     .run-img img{
         width: 300px;
         height: 200px;
+        object-fit: cover;
     } 
     /* Bmi calculator responsive */   
     .bmi-content{
