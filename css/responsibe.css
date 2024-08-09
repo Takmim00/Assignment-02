@@ -73,13 +73,17 @@
         padding: 0px;
         width: 100%;
     }
+    .bmi-chart{
+        width: 70%;
+        padding: 40px;
+    }
     .bmi-calculator{
         width: 80%;
     }
     /* Meet our team responsive  */
     .trainer-container{
         grid-template-columns: 1fr;
-    } 
+    }
     /* Footer responsive  */
     .footer-content{
         flex-direction: column;
