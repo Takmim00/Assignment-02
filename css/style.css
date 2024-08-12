@@ -380,7 +380,7 @@ select {
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.2);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a b c" "d e f";
     gap: 10px;
 }
 .trainers{
@@ -396,6 +396,24 @@ select {
 .trainer-details h3{
     font-size: 1rem;
     font-weight: 800;
+}
+.cards-1{
+    grid-area: a;
+}
+.cards-2{
+    grid-area: b;
+}
+.cards-3{
+    grid-area: c;
+}
+.cards-4{
+    grid-area: d;
+}
+.cards-5{
+    grid-area: e;
+}
+.cards-6{
+    grid-area: f;
 }
 .trainer-details{
     position: absolute;

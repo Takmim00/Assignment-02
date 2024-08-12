@@ -82,7 +82,18 @@
     }
     /* Meet our team responsive  */
     .trainer-container{
-        grid-template-columns: 1fr;
+        grid-template-areas:
+         "a"
+         "b"
+         "c"
+         "f"
+         ;
+    }
+    .cards-4{ 
+        display: none;
+    }
+    .cards-5{       
+        display: none;
     }
     /* Footer responsive  */
     .footer-content{
