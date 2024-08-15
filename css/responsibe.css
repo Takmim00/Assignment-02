@@ -96,6 +96,9 @@
         display: none;
     }
     /* Footer responsive  */
+    .footer-container{
+        padding: 10px;
+    }
     .footer-content{
         flex-direction: column;
         align-items: start;
@@ -104,6 +107,12 @@
         flex-direction: column;
     }
     .footer-logo{
+        width: 100%;
+    }
+    .footer-bottom{
+        margin-bottom: 20px;
+    }
+    .footer-bottom hr{
         width: 100%;
     }
 }

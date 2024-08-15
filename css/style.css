@@ -463,8 +463,11 @@ select {
 .footer-bottom{
     color: rgba(255, 255, 255, 0.5);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-top: 36px;
-    margin-bottom: 36px;
+}
+.footer-bottom hr{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 80%;
+    margin-bottom: 40px;
 }
