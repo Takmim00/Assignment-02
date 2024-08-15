@@ -358,6 +358,59 @@ select {
     font-weight: 600;
     cursor: pointer;
 }
+/* Challenge part style */
+.challenge-title{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.challenge-title h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.challenge-title p{
+    font-size: .8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.challenge-container{
+    display: flex;
+    background: rgb(34, 34, 34);
+}
+.challenge-img{
+    width: 853px;
+}
+.challenge-img img{
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+}
+.challenge-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 100px;
+}
+.challenge-content h1{
+    font-size: 4.5rem;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.challenge-list{
+    display: flex;
+    gap: 80px;
+}
+.challenge-list p{
+    margin-bottom: 10px;
+}
+.fa-check{
+    color: greenyellow;
+}
 /* Meet our team style  */
 .team-container{
     color: white;
